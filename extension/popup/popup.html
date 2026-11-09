@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DarkGuard - Dark Pattern Detector</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-content">
+      <div class="logo">
+        <svg class="logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16 2L4 8v8c0 7.18 5.12 13.88 12 16 6.88-2.12 12-8.82 12-16V8L16 2z" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1.5"/>
+          <path d="M13 16l2 2 4-4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="logo-text">
+          <h1>DarkGuard</h1>
+          <span class="logo-subtitle">AI Dark Pattern Detector</span>
+        </div>
+      </div>
+      <div class="api-status" id="apiStatus" title="Backend status">
+        <span class="status-dot" id="statusDot"></span>
+        <span class="status-text" id="statusText">Checking...</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main">
+    <!-- Site Info -->
+    <div class="site-info" id="siteInfo">
+      <div class="site-icon">🌐</div>
+      <div class="site-details">
+        <span class="site-label">Current Website</span>
+        <span class="site-domain" id="siteDomain">Loading...</span>
+      </div>
+    </div>
+
+    <!-- Scan Button -->
+    <button class="scan-btn" id="scanBtn" disabled>
+      <span class="scan-btn-icon" id="scanBtnIcon">🔍</span>
+      <span class="scan-btn-text" id="scanBtnText">Scan This Page</span>
+    </button>
+
+    <!-- Scanning State -->
+    <div class="scanning-state hidden" id="scanningState">
+      <div class="scanner-animation">
+        <div class="scanner-ring"></div>
+        <div class="scanner-ring scanner-ring-2"></div>
+        <div class="scanner-ring scanner-ring-3"></div>
+        <svg class="scanner-icon" viewBox="0 0 24 24" fill="none">
+          <path d="M12 2L4 6v6c0 5.55 3.84 10.74 8 12 4.16-1.26 8-6.45 8-12V6L12 2z" stroke="currentColor" stroke-width="2"/>
+        </svg>
+      </div>
+      <p class="scanning-text" id="scanningText">Analyzing page elements...</p>
+      <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+    </div>
+
+    <!-- Error State -->
+    <div class="error-state hidden" id="errorState">
+      <div class="error-icon">⚠️</div>
+      <p class="error-title" id="errorTitle">Scan Error</p>
+      <p class="error-message" id="errorMessage">Something went wrong.</p>
+      <button class="retry-btn" id="retryBtn">Try Again</button>
+    </div>
+
+    <!-- Results Section -->
+    <div class="results hidden" id="results">
+      <!-- Risk Score Card -->
+      <div class="risk-card" id="riskCard">
+        <div class="risk-score-container">
+          <div class="risk-gauge" id="riskGauge">
+            <svg class="gauge-svg" viewBox="0 0 120 120">
+              <circle class="gauge-bg" cx="60" cy="60" r="52" stroke-width="10" fill="none"/>
+              <circle class="gauge-fill" id="gaugeFill" cx="60" cy="60" r="52" stroke-width="10" fill="none"
+                stroke-dasharray="326.73" stroke-dashoffset="326.73"/>
+            </svg>
+            <div class="risk-score-text">
+              <span class="risk-score-value" id="riskScoreValue">0</span>
+              <span class="risk-score-label">/ 100</span>
+            </div>
+          </div>
+          <div class="risk-details">
+            <span class="risk-status-badge" id="riskStatusBadge">SCANNING</span>
+            <span class="risk-patterns-count" id="riskPatternsCount">0 patterns detected</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detected Patterns -->
+      <div class="patterns-section" id="patternsSection">
+        <h2 class="section-title">
+          <span>Detected Patterns</span>
+          <span class="patterns-count-badge" id="patternsCountBadge">0</span>
+        </h2>
+        <div class="patterns-list" id="patternsList">
+          <!-- Patterns will be injected here -->
+        </div>
+        <div class="no-patterns hidden" id="noPatterns">
+          <div class="no-patterns-icon">✅</div>
+          <p class="no-patterns-text">No dark patterns detected!</p>
+          <p class="no-patterns-sub">This page appears to use fair design practices.</p>
+        </div>
+      </div>
+
+      <!-- Recommendations -->
+      <div class="recommendations-section hidden" id="recommendationsSection">
+        <h2 class="section-title">
+          <span>💡 Recommendations</span>
+        </h2>
+        <ul class="recommendations-list" id="recommendationsList">
+          <!-- Recommendations will be injected here -->
+        </ul>
+      </div>
+
+      <!-- View Full Report Button -->
+      <a class="report-btn hidden" id="reportBtn" href="#" target="_blank">
+        <span>📊 View Full Report</span>
+        <span class="report-btn-sub">Opens in DarkGuard Dashboard</span>
+      </a>
+    </div>
+
+    <!-- Empty State (initial) -->
+    <div class="empty-state" id="emptyState">
+      <div class="empty-icon">🛡️</div>
+      <p class="empty-text">Click <strong>"Scan This Page"</strong> to analyze this website for dark patterns.</p>
+      <p class="empty-sub">DarkGuard uses AI to detect deceptive design practices that trick users.</p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <span>DarkGuard v1.0.0</span>
+    <span class="footer-dot">•</span>
+    <span>Privacy-first analysis</span>
+  </footer>
+
+  <script src="../utils/api.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

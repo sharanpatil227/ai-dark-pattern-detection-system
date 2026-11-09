@@ -1,0 +1,206 @@
+text,category,is_dark_pattern
+"No thanks, I don't want to save money",Confirm Shaming,1
+"No, I prefer paying full price",Confirm Shaming,1
+"I hate free gifts, skip offer",Confirm Shaming,1
+"No thanks, I don't care about my family's safety",Confirm Shaming,1
+"I prefer to miss out on exclusive discounts",Confirm Shaming,1
+"No, I want to keep paying higher bills",Confirm Shaming,1
+"I don't care about my health and wellbeing",Confirm Shaming,1
+"No thanks, I don't want to look younger",Confirm Shaming,1
+"I don't need financial security",Confirm Shaming,1
+"No thanks, I prefer being disorganized",Confirm Shaming,1
+"I don't want to improve my skills",Confirm Shaming,1
+"No, I don't want the best insurance coverage",Confirm Shaming,1
+"I will pass on this once in a lifetime opportunity",Confirm Shaming,1
+"No thanks, I love wasting time and money",Confirm Shaming,1
+"I don't want to protect my computer from viruses",Confirm Shaming,1
+"No, I would rather suffer without guidance",Confirm Shaming,1
+"I don't want free unlimited delivery",Confirm Shaming,1
+"No thanks, I don't care about great deals",Confirm Shaming,1
+"I prefer to remain uninformed",Confirm Shaming,1
+"No thanks, I will pay retail price like everyone else",Confirm Shaming,1
+"I don't want to boost my career prospects",Confirm Shaming,1
+"No, I hate extra perks and VIP rewards",Confirm Shaming,1
+"I choose to compromise my digital privacy",Confirm Shaming,1
+"No thanks, keep showing me expensive alternatives",Confirm Shaming,1
+"I am fine with losing my files without backup",Confirm Shaming,1
+"No thanks, I don't care about saving 50% today",Confirm Shaming,1
+"I would rather pay full price for this product",Confirm Shaming,1
+"No thanks, I dislike receiving useful updates",Confirm Shaming,1
+"I don't want to be smarter with my money",Confirm Shaming,1
+"No, I'm okay with being left behind",Confirm Shaming,1
+"Only 2 minutes left to complete your order!",Fake Urgency,1
+"Hurry! Sale ends in 00:04:59. Don't miss out!",Fake Urgency,1
+"Only 1 item left in stock - order right now!",Fake Urgency,1
+"Someone in New York just bought this 3 seconds ago!",Fake Urgency,1
+"Limited time offer! Price goes up when timer hits zero!",Fake Urgency,1
+"Flash sale expiring in 5 minutes! Claim your discount!",Fake Urgency,1
+"Act now! 14 people are viewing this product right now!",Fake Urgency,1
+"Reserved for you for 10:00 minutes only!",Fake Urgency,1
+"Almost sold out! High demand detected for this item!",Fake Urgency,1
+"Only 2 spots remaining! Book within 3 minutes!",Fake Urgency,1
+"Exclusive deal valid for next 60 seconds only!",Fake Urgency,1
+"Your cart reservation expires in 02:45!",Fake Urgency,1
+"Prices may increase if you leave this page now!",Fake Urgency,1
+"Last chance! Timer is ticking down fast!",Fake Urgency,1
+"Immediate action required to lock in your special rate!",Fake Urgency,1
+"4 other shoppers have this exact room in their basket!",Fake Urgency,1
+"Hurry, discount code expires in 120 seconds!",Fake Urgency,1
+"This special promo disappears at midnight sharp!",Fake Urgency,1
+"Over 98% claimed! Secure yours before stock runs dry!",Fake Urgency,1
+"Final countdown: your checkout window closes soon!",Fake Urgency,1
+"Urgent! Limited inventory remaining for this selection!",Fake Urgency,1
+"Don't wait! Timer resets and deal will be revoked!",Fake Urgency,1
+"Demand is high! Only 1 room left at this promotional price!",Fake Urgency,1
+"Tick tock! Your discount is evaporating right now!",Fake Urgency,1
+"Offer expires in 00:01:30! Proceed to payment immediately!",Fake Urgency,1
+"Free 7-day trial, automatically renews at $49.99 per month until cancelled",Forced Continuity,1
+"By clicking continue you authorize monthly recurring billing of $79.00",Forced Continuity,1
+"First month free! Your credit card will be charged automatically every 30 days",Forced Continuity,1
+"Membership auto-renews annually at the standard rate of $199 without notice",Forced Continuity,1
+"Trial period ends in 3 days, continuous billing starts immediately after",Forced Continuity,1
+"Automatic subscription renewal applies unless cancelled 48 hours prior",Forced Continuity,1
+"Your plan will seamlessly renew each billing cycle at full non-promotional price",Forced Continuity,1
+"Enjoy 14 days free trial then billing automatically commences",Forced Continuity,1
+"Enroll in VIP club membership with automatic recurring charges",Forced Continuity,1
+"Subscription converts into paid annual tier upon trial completion",Forced Continuity,1
+"Continuous service program will charge your default card annually",Forced Continuity,1
+"Free download requires credit card and enrolls you in quarterly subscription",Forced Continuity,1
+"Recurring billing will begin as soon as your promotional week finishes",Forced Continuity,1
+"Zero dollars today, then $29.99 recurring each month automatically",Forced Continuity,1
+"Auto-enroll in our recurring replenishment program upon order placement",Forced Continuity,1
+"Terms: automatic renewal occurs continuously unless manually terminated",Forced Continuity,1
+"Free test account transitions to recurring premium billing automatically",Forced Continuity,1
+"By placing this order you consent to automatic monthly subscription withdrawals",Forced Continuity,1
+"Convenient auto-renewal service maintains your active subscription automatically",Forced Continuity,1
+"Trial converts to paid membership; charges recur each billing statement",Forced Continuity,1
+"Subtotal: $20.00. Mandatory service charge of $12.50 added at final step",Hidden Costs,1
+"Additional undisclosed handling fee applied at order review",Hidden Costs,1
+"Mandatory resort fee of $45 per night not included in base room price",Hidden Costs,1
+"Processing surcharge added to your total on the confirmation screen",Hidden Costs,1
+"Convenience fee of $8.95 added after entering payment details",Hidden Costs,1
+"Final total includes unexpected delivery surcharge and administrative fees",Hidden Costs,1
+"Regulatory recovery fee and unspecified taxes added at last stage of checkout",Hidden Costs,1
+"Mandatory packaging surcharge of $5 applied at checkout screen",Hidden Costs,1
+"Taxes and hidden transaction fees revealed only after submitting payment method",Hidden Costs,1
+"Special booking fee of $15.00 automatically tagged to your invoice",Hidden Costs,1
+"Surprise restocking fee will be assessed on this order",Hidden Costs,1
+"Estimated total excludes dynamic service fees calculated upon final approval",Hidden Costs,1
+"Mandatory order processing fee of $7.50 added at payment step",Hidden Costs,1
+"A small administrative surcharge of $9.99 has been appended to the basket",Hidden Costs,1
+"Additional mandatory compliance fee disclosed only at final payment",Hidden Costs,1
+"Platform fee added during checkout without prior notice on product page",Hidden Costs,1
+"Unexpected luggage and baggage handling surcharge on final page",Hidden Costs,1
+"Check-in fee not reflected in listed room rates",Hidden Costs,1
+"Ancillary technology fee added right before submitting transaction",Hidden Costs,1
+"Check this box to opt out of our automatic insurance coverage",Sneaking,1
+"A 2-year warranty was automatically added to your shopping cart",Sneaking,1
+"Pre-checked checkbox enrolls you in weekly promotional newsletters",Sneaking,1
+"We added express carbon-neutral shipping coverage of $4.99 to your bag",Sneaking,1
+"Selected by default: subscribe to third-party partner marketing offers",Sneaking,1
+"Automatically included: protection plan for $14.99 in your cart",Sneaking,1
+"Check box is pre-selected to add donation to charity at checkout",Sneaking,1
+"Pre-selected opt-in for recurring SMS advertising updates",Sneaking,1
+"Your order includes pre-checked subscription to magazine bundle",Sneaking,1
+"Complimentary trial software added to download queue by default",Sneaking,1
+"Default selection: upgrade to priority VIP customer support tier",Sneaking,1
+"Checkbox already ticked for automatic enrollment into rewards membership",Sneaking,1
+"Pre-checked option adds premium gift packaging fee to order",Sneaking,1
+"Add-on accessory quietly slipped into customer cart during checkout",Sneaking,1
+"Default choice set to automatically share contact details with advertisers",Sneaking,1
+"Pre-checked agreement granting perpetual license to user data",Sneaking,1
+"Automated insertion of supplemental travel insurance into itinerary",Sneaking,1
+"Default toggle enabled for recurring monthly replenishment",Sneaking,1
+"Pre-ticked box to accept unsolicited telemarketing phone calls",Sneaking,1
+"Automatic inclusion of extended service contract in total purchase",Sneaking,1
+"To cancel your membership, please call our toll-free hotline during work hours",Obstruction,1
+"To delete your account you must mail a notarized written letter to headquarters",Obstruction,1
+"Cancellation requires speaking with a retention specialist by phone",Obstruction,1
+"You must complete this 12-question exit survey before unsubscribing",Obstruction,1
+"Unsubscribe link requires entering your password and confirming via postal mail",Obstruction,1
+"To turn off auto-renew, visit our physical branch during business hours",Obstruction,1
+"Are you sure you want to cancel? Step 1 of 6 in cancellation questionnaire",Obstruction,1
+"Cancellation requests take 30 to 60 business days to manually review",Obstruction,1
+"To unsubscribe, navigate through 5 confirmation dialogs and re-verify email",Obstruction,1
+"Please contact customer support via international phone call to request refund",Obstruction,1
+"Cancellation option is disabled; please contact chat representative to appeal",Obstruction,1
+"You must keep account active for at least 6 months before cancellation option unlocks",Obstruction,1
+"Unsubscribe button is greyed out and requires submitting support ticket",Obstruction,1
+"Multiple confirmation prompts asking 'Are you really sure?' with tricky choices",Obstruction,1
+"Cancellation button is buried under advanced nested security preferences",Obstruction,1
+"To opt out you must call customer service during Monday to Friday 9am-11am EST",Obstruction,1
+"Account deletion requires contacting administrative staff and waiting for callback",Obstruction,1
+"Complex multi-page maze designed to prevent user from cancelling subscription",Obstruction,1
+"Hard to find cancellation link tucked away in unlinked legal terms footer",Obstruction,1
+"Requires user to send physical letter with government ID to cancel",Obstruction,1
+"Huge green 'Accept All Cookies' button while 'Reject' is hidden in small grey text",Misdirection,1
+"Prominent glowing button says 'Yes upgrade', tiny link says 'No thanks'",Misdirection,1
+"Large colorful Continue button with tiny transparent Skip button underneath",Misdirection,1
+"Button styling makes Decline option look like inactive disabled text",Misdirection,1
+"Trick question: check box if you do not want us not to send emails",Misdirection,1
+"Double negative phrasing confuses user into consenting to data collection",Misdirection,1
+"Green button signs up for paid plan while free tier link is barely visible",Misdirection,1
+"Visual hierarchy tricks user into clicking high-cost option instead of standard",Misdirection,1
+"Deceptive button label 'Save Changes' actually enrolls user in premium trial",Misdirection,1
+"Default primary button accepts paid upsell while skip option is faded grey link",Misdirection,1
+"Color contrast makes 'Keep Plan' pop out while 'Cancel Plan' blends into background",Misdirection,1
+"Misleading radio buttons where selecting No actually enables the feature",Misdirection,1
+"Misleading layout draws attention away from recurring fee disclosure",Misdirection,1
+"Deceptive checkmark icon creates false illusion of security certification",Misdirection,1
+"Misleading button text 'Claim Reward' charges user payment method instantly",Misdirection,1
+"Prominent 'Accept and Continue' vs disguised 'Customize Settings' footer text",Misdirection,1
+"Check here if you wish not to receive no promotional correspondence",Misdirection,1
+"Visually deceptive pricing chart highlighting expensive tier as recommended",Misdirection,1
+"Camouflaged dismiss button styled as non-clickable decorative element",Misdirection,1
+"Deceptive banner looks like an operating system security warning",Misdirection,1
+"Welcome to our store. Browse our wide selection of handmade shoes.",Benign,0
+"Shipping calculated at checkout based on standard postal rates.",Benign,0
+"Thank you for shopping with us! Here is your itemized receipt.",Benign,0
+"Click here to read our standard privacy policy and terms of service.",Benign,0
+"We offer a 30-day money back guarantee on all returnable items.",Benign,0
+"Subscribe to our newsletter if you would like weekly recipes.",Benign,0
+"Select your preferred size and color from the dropdown menu.",Benign,0
+"Add item to cart or save to your wishlist for later review.",Benign,0
+"Contact our 24/7 customer support team via online chat or email.",Benign,0
+"Order summary: Subtotal $45.00, standard shipping $5.00, Total $50.00.",Benign,0
+"You can cancel your subscription anytime in your account settings with one click.",Benign,0
+"Our store hours are Monday through Saturday 9am to 6pm.",Benign,0
+"Sign up with your email address to create a free account.",Benign,0
+"Learn more about our company mission and environmental sustainability pledge.",Benign,0
+"Please review the products in your shopping bag before placing order.",Benign,0
+"Your password must be at least 8 characters long and contain one number.",Benign,0
+"Free shipping on all orders over $50 within the continental United States.",Benign,0
+"We accept Visa, Mastercard, American Express, and PayPal.",Benign,0
+"Your package has shipped and tracking information is available below.",Benign,0
+"Enter your coupon code here to apply your valid promotional discount.",Benign,0
+"All prices include applicable sales tax and statutory duties.",Benign,0
+"Frequently asked questions regarding sizing, fit, and garment care.",Benign,0
+"Download our official mobile app for iOS and Android devices.",Benign,0
+"Our team is dedicated to providing high quality organic products.",Benign,0
+"Click to expand product specifications and manufacturer dimensions.",Benign,0
+"View customer reviews and verified buyer feedback on this product.",Benign,0
+"Manage your notification preferences easily from your account dashboard.",Benign,0
+"Read our blog post about healthy breakfast ideas and nutritional tips.",Benign,0
+"Reset your account password by clicking the security link sent to your inbox.",Benign,0
+"Clear and transparent pricing with no hidden charges or unexpected surprises.",Benign,0
+"You have successfully updated your profile and shipping address.",Benign,0
+"Search our catalog of over 10,000 electronics, books, and home goods.",Benign,0
+"Standard delivery arrives in 3-5 business days via national postal carrier.",Benign,0
+"Click here to download your purchased digital PDF guide immediately.",Benign,0
+"We value your privacy and do not sell your personal data to third parties.",Benign,0
+"Unsubscribe from this mailing list anytime using the link at the bottom.",Benign,0
+"Your order has been confirmed. Confirmation details sent to your email.",Benign,0
+"Select standard ground shipping or optional expedited courier service.",Benign,0
+"Easily modify or cancel your booking directly online with zero hassle.",Benign,0
+"Explore our latest collection of sustainable outdoor winter apparel.",Benign,0
+"Simple one-step checkout process with transparent breakdown of costs.",Benign,0
+"Customer satisfaction is our highest priority across all product lines.",Benign,0
+"Create a wishlist to track price drops on your favorite electronics.",Benign,0
+"Read verified reviews from other customers who bought this item.",Benign,0
+"All software updates and security patches are provided free of charge.",Benign,0
+"Click 'Decline' if you do not wish to enable optional browser cookies.",Benign,0
+"Transparent one-time purchase with no recurring membership obligations.",Benign,0
+"Full refund provided within 14 days if you are not completely satisfied.",Benign,0
+"Choose between monthly billing or discounted annual billing plan.",Benign,0
+"No credit card required to start exploring our public software demo.",Benign,0
+
